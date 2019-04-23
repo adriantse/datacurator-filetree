@@ -12,14 +12,15 @@ The **root** defines several *main sections*. These main sections allow for an e
 
 | Folder      | Contents                                                     |
 | ----------- | ------------------------------------------------------------ |
-| audio       | Music, Sounds, Podcasts, Game Audio, ...                     |
-| documents   | Personal Documents (Bills, Photos, Backups, ..)              |
-| images      | Art, Photography, Fanart                                     |
-| interactive | boardgames, cardgames, videogames, arcade, virtual reality, ... |
-| literature  | books, writings, scientific papers, articles, ...            |
-| software    | Computer Applications, Mobile Apps, Operating Systems        |
-| video       | Movies, Short Movies/Films, TV-Shows, ...                    |
-| web         | raw internet content of any kind sorted by domain            |
+| Audio       | Music, Sounds, Podcasts, Game Audio, ...                     |
+| Documents   | Personal Documents (Bills, Photos, Backups, ..)              |
+| Images      | Art, Photography, Fanart                                     |
+| Interactive | boardgames, cardgames, videogames, arcade, virtual reality, ... |
+| Literature  | books, writings, scientific papers, articles, ...            |
+| Projects  | Documents, Communications, Reference, Presentations, ...            |
+| Software    | Computer Applications, Mobile Apps, Operating Systems        |
+| Video       | Movies, Short Movies/Films, TV-Shows, ...                    |
+| Web         | raw internet content of any kind sorted by domain            |
 
 
 
@@ -79,7 +80,11 @@ NUL (integer value zero)
 Embedded Returns
 ```
 
-
+3. Setup
+To copy strucuture:
+```
+cd /path/to/source && find . -type d -exec mkdir -p /path/to/dest/{} \;
+```
 
 References:
 
