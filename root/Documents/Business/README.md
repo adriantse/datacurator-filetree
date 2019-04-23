@@ -1,6 +1,6 @@
 ## Content
 
-Personal Documents like Letters, Poems, Forms, Bills, etc.
+Business Documents like minutes, presenations, reference, reports
 
 
 
